@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "eCcYkaD89eWZ+yvjJ8jgWIOVD+jDNluLE5GPnDixXOcgDN9qBarL6vqKy2uO4PoH3gFgOlGq5dsD5OxPq5XsVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pushkar\\Desktop\\K8\\CI CD\\With Gaurav\\TestCICDDeployment\\FusionContract\\FusionContract.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pushkar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Pushkar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Pushkar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512",
+    "C:\\Users\\Pushkar\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Pushkar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Pushkar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Pushkar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

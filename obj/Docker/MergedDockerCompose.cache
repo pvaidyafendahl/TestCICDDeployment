@@ -1,0 +1,22 @@
+services:
+  fusioncontract:
+    build:
+      context: C:\Users\Pushkar\Desktop\K8\CI CD\With Gaurav\TestCICDDeployment
+      dockerfile: FusionContract/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: UAT
+    image: fusioncontract
+    ports:
+    - published: 11000
+      target: 80
+  fusionreferencedata:
+    build:
+      context: C:\Users\Pushkar\Desktop\K8\CI CD\With Gaurav\TestCICDDeployment
+      dockerfile: FusionReferenceData/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: UAT
+    image: fusionreferencedata
+    ports:
+    - published: 12000
+      target: 80
+version: '3.4'

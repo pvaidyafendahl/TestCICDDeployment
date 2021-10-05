@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  fusioncontract:
+    image: ${DOCKER_REGISTRY-}fusioncontract
+    build:
+      context: .
+      dockerfile: FusionContract/Dockerfile
+
+  fusionreferencedata:
+    image: ${DOCKER_REGISTRY-}fusionreferencedata
+    build:
+      context: .
+      dockerfile: FusionReferenceData/Dockerfile
+

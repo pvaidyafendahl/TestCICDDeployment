@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  fusioncontract:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=UAT
+    ports:
+      - "11000:80"
+
+  fusionreferencedata:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=UAT
+    ports:
+      - "12000:80"
+
